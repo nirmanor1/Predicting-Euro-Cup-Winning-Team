@@ -13,9 +13,8 @@ Welcome to the Machine Learning Football Match Prediction repository! This proje
 - [Installation](#installation)
 - [Usage](#usage)
 - [Machine Learning Algorithms](#machine-learning-algorithms)
+- [Project Sections](#project-sections)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -140,6 +139,52 @@ Visualization plays a crucial role in understanding the performance and impact o
 - Correlation heatmaps to identify the relationship between features.
 - Bar plots to visualize the distribution of goals scored.
 - Box plots and strip plots to show the impact of specific features on match outcomes.
+
+## Project Sections
+
+### Section A - Data Exploration & Visualization
+
+In this section, we explored the data using tables, visualizations, and other relevant methods. Key tasks included:
+- Loading the data and displaying initial insights and statistics.
+- Visualizing the distribution of match outcomes, goals scored by home and away teams, and trends over time.
+- Creating plots to identify patterns, such as the frequency of shootouts and the impact of match location on outcomes.
+
+### Section B - Data Preprocessing
+
+This section involved preparing the data for modeling through various preprocessing steps:
+- Handling missing values by imputation or dropping irrelevant columns.
+- Feature engineering to create new informative features, such as win rates, average goals, and recent performance metrics.
+- Normalizing and transforming data to ensure it was suitable for machine learning models.
+
+### Section C - Home Team Winning Prediction
+
+We used machine learning models to predict whether the home team won the match:
+- Implemented three different models: Logistic Regression, Random Forest, and Support Vector Machine.
+- Conducted parameter tuning to optimize model performance.
+- Evaluated models using metrics such as accuracy, precision, recall, and F1-score.
+- Visualized model results and compared their performance.
+
+### Section D - Clustering
+
+In this section, we applied clustering algorithms to group teams based on their performance:
+- Created a dataset where each row represented a team and included features describing their game history.
+- Applied K-Means Clustering and Hierarchical Clustering to identify team clusters.
+- Tuned clustering parameters and evaluated cluster quality using various methods.
+- Visualized clustering results to interpret similarities and differences between clusters.
+
+### Section E - Clustering and Dimension Reduction (Bonus)
+
+This section focused on reducing data dimensions and clustering:
+- Used PCA to reduce the dimensions of team data while retaining most of the variance.
+- Applied clustering algorithms to the reduced data and compared results with those obtained without PCA.
+- Visualized clusters before and after PCA to understand the impact of dimension reduction.
+
+### Section F - Exploring Players (Bonus)
+
+This section explored individual player performance:
+- Created a new dataset representing each player’s goal statistics.
+- Formulated a question related to player performance and selected an appropriate machine learning algorithm to answer it.
+- Implemented the algorithm, analyzed the results, and visualized key insights about player performance.
 
 ## Features
 
